@@ -7,4 +7,6 @@ allow system_app vendor_sysfs_battery_supply:file { read open getattr };
 # read gpu info
 allow system_app vendor_sysfs_kgsl:file { read open getattr };
 allow system_app vendor_sysfs_kgsl_gpuclk:file { read open getattr };
+# read cpu info
+allow system_app proc_stat:file { read open getattr };
 
