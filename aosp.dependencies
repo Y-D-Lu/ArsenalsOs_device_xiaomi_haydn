@@ -1,9 +1,15 @@
 [
   {
-    "repository": "kernel_xiaomi_haydn",
+    "repository": "ArsenalsOs_kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/haydn",
-    "remote": "pixel-devices",
-    "branch": "thirteen"
+    "remote": "arsenalsos",
+    "branch": "aos"
+  },
+  {
+    "repository": "ArsenalsOs_kernel_kernelsu",
+    "target_path": "kernel/KernelSU",
+    "remote": "arsenalsos",
+    "branch": "aos"
   },
   {
     "repository": "vendor_xiaomi_haydn",
